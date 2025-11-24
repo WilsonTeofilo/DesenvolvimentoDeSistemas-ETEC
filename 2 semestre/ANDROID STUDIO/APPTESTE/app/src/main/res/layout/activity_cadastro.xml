@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF8F8"
+    tools:context=".CadastroActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- TÍTULO DA TELA DE CADASTRO -->
+        <TextView
+            android:id="@+id/tituloCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="NOVO CADASTRO"
+            android:textColor="#E7780D"
+            android:textSize="32sp"
+            android:fontFamily="@font/bangers"
+            android:textStyle="bold"
+            android:layout_marginBottom="40dp" />
+
+        <!-- 1. CAMPO EMAIL -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeColor="#FF8E00"
+            app:hintTextColor="#FF8E00"
+            android:textColorHint="@color/black"
+
+            app:startIconTint="#FF8E00"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:fontFamily="@font/bangers"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- 2. CAMPO CONFIRMAR EMAIL -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutConfirmarEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeColor="#FF8E00"
+            app:hintTextColor="#FF8E00"
+            android:textColorHint="@color/black"
+
+            app:startIconTint="#FF8E00"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputConfirmarEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirmar Email"
+                android:inputType="textEmailAddress"
+                android:fontFamily="@font/bangers"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- 3. CAMPO SENHA -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeColor="#FF8E00"
+            app:hintTextColor="#FF8E00"
+            android:textColorHint="@color/black"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="#FF8E00"
+
+            app:startIconTint="#FF8E00"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:fontFamily="@font/bangers"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- 4. CAMPO CONFIRMAR SENHA -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layoutConfirmarSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:boxStrokeWidth="2dp"
+            app:boxStrokeColor="#FF8E00"
+            app:hintTextColor="#FF8E00"
+            android:textColorHint="@color/black"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="#FF8E00"
+
+            app:startIconTint="#FF8E00"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputConfirmarSenha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirmar Senha"
+                android:inputType="textPassword"
+                android:fontFamily="@font/bangers"
+                android:textColor="@color/black" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- BOTÕES -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp"
+            android:weightSum="2">
+
+            <!-- BOTÃO CADASTRAR (Ação Primária) -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCadastrar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:text="CADASTRAR"
+                android:backgroundTint="#FD6500"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                app:cornerRadius="8dp"
+                app:elevation="4dp"
+                />
+
+            <!-- BOTÃO APAGAR (Ação Secundária) -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnApagar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="APAGAR"
+                android:backgroundTint="#FF8E00"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                app:cornerRadius="8dp"
+                app:elevation="4dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
