@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="pg1.php" method="get">
+        <h1>CONVERSOR REAL</h1>
+<label for="reais"> Valor em R$:</label>
+<input type="number" step="0.01" name="reais" id="reaisID" autocomplete="off">
+
+
+
+<label for="moeda"> Selecione a moeda:</label>
+<select name="moeda" id="moeda">
+  <option value="USD" class="usd">USD - Dólar</option>
+  <option value="CAD" class="cad">CAD - Dólar Canadense</option>
+  <option value="EUR" class="eur">EUR - Euro</option>
+  <option value="JPY" class="jpy">JPY - Iene Japonês</option>
+
+</select>
+<input type="text" name="convertido" id="convertidoID" readonly>
+
+
+
+
+
+
+
+<button type="submit">Converter </button>
+
+    </form>
+    
+</body>
+</html>

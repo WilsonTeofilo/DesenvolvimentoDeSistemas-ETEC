@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-image: linear-gradient(to right top, #33195e, #8a37df, #ae5ee2, #cb84e6, #e1abec);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+main {
+    background-image: linear-gradient(to right top, #e1abec, #da9ce7, #d48de2, #cd7edd, #c66ed8);
+    background-attachment: fixed;
+    border-radius: 20px;
+    margin: 40px auto;
+    padding: 25px;
+    width: 45%;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #2c026d;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+    justify-content: center;  
+    gap: 8px;                  
+    margin-top: 15px;
+    text-align: center;
+}
+
+input[type="radio"] {
+    margin: 6px;
+    transform: scale(1.1);
+}
+
+input[type="text"],
+input[type="number"] {
+    background-image: linear-gradient(to right top, #5500de67, #5500de5e, #d48de252, #cd7edd5b, #c66ed834);
+    border: solid rgb(26, 26, 27);
+    border-radius: 6px;
+    text-align: center;
+    font-weight: 800;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+input:hover::placeholder {
+  color: rgb(255, 255, 255);
+  transform: scale(1.05);
+  font-weight: 700;
+  text-shadow: 2px 2px 2px black;
+}
+
+.btn {
+    background-color: #9f7ed0;
+    border-radius: 10px;
+    text-shadow: 2px 2px 3px black;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 900;
+    border: none;
+}
+
+.btn:hover {
+  transform: scale(1.06);
+  color:#571991;
+  background-color: #9360bb;
+  text-shadow: 3px 3px 3px rgba(130, 85, 209, 0.744);
+}
+
+img {
+  display: block;          
+  margin: 0 auto 20px;   
+  width: 400px;           
+  height: auto;            
+  border-radius: 10px;   
+  box-shadow: 0 0 10px rgba(0,0,0,0.2); 
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+    }
+
+    img {
+        width: 90%;
+    }
+}
