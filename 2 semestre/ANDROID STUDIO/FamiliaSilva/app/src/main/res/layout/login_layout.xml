@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C586A2"
+
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/logozinho"
+        android:layout_width="204dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/coelhologo"
+        android:layout_centerHorizontal="true"
+        />
+    <!-- sem texto, apenas layout  -->
+   <com.google.android.material.textfield.TextInputLayout
+       android:id="@+id/layoutEmail"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:layout_below="@id/logozinho"
+       app:boxStrokeWidth="2dp"
+       app:boxStrokeColor="#1A98D7"
+     android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       app:startIconDrawable="@drawable/emei"
+       >
+
+       <!--Texto com logo-->
+    <com.google.android.material.textfield.TextInputEditText
+       android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira seu Email"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/logozinho"
+        android:fontFamily="@font/font"
+        />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!-- sem texto, apenas layout  -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutSenha"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/layoutEmail"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:boxStrokeWidth="2dp"
+        app:boxStrokeColor="#1A98D7"
+        app:startIconDrawable="@drawable/senha"
+        >
+        <!--Texto com logo-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Senha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Insira sua senha"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/Email"
+            android:fontFamily="@font/font"
+            android:password="true"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnEntrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:layout_below="@+id/layoutSenha"
+       android:layout_marginLeft="160dp"
+        android:backgroundTint="#A6C9D9"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+
+
+/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastro"
+        android:layout_below="@+id/btnEntrar"
+        android:layout_marginLeft="160dp"
+        android:backgroundTint="#A6C9D9"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
