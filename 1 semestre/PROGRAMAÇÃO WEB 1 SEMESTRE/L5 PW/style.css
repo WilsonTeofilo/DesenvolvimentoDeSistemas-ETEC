@@ -1,0 +1,60 @@
+
+
+body{
+    background-image: linear-gradient(to top, #050505, #e2dcda, #a5a5a5, #8f8c8b, #100c44 );
+    background-attachment: fixed;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: rgb(235, 101, 12);
+padding: 20px;
+
+
+}
+
+  /* Título principal */
+  h1 {
+    color: #2a52be;
+    font-size: 36px;
+  }
+
+  /* Links */
+  a:link {
+    color: blue;
+  }
+
+  a:hover {
+    color: orange;
+  }
+
+  a:visited {
+    color: purple;
+  }
+
+  /* Parágrafos com classes */
+  .intro {
+    color: green;
+    text-align: center;
+  }
+
+  .descricao {
+    color: darkred;
+    text-align: justify;
+  }
+
+  /* Duas colunas */
+  .coluna {
+    width: 45%;
+    float: left;
+    margin: 2.5%;
+    padding: 15px;
+    border: 2px solid #333;
+    box-sizing: border-box;
+  }
+
+  /* Caixa com margem e padding */
+  .caixa {
+    clear: both;
+    margin: 30px 0;
+    padding: 20px;
+    border: 2px dashed #999;
+    background-color: #fff8dc;
+  }

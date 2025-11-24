@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX4 BLOG</title>
+<link rel="shortcut icon" href="/EX4/favicon/favicon.ico" type="image/x-icon">
+<style> 
+    p{
+        color: rgb(116, 114, 114);
+    }
+    body{
+        background-color: rgb(241, 227, 210);
+    }
+    h2{
+        color: rgb(73, 73, 73);
+    }
+ 
+
+</style>
+</head>
+
+<body>
+    <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: rgba(225, 103, 230, 0.945);"> <em>ConfeitaNara</em></h1> <hr>
+    <h2> <strong>Receita de bolo de morango</strong></h2>
+ <ul type = "square">
+<li>  1 xícara (chá) de água</li>
+    <li>1 xícara (chá) de Nesquick®</li>
+    <li>4 colheres (sopa) de manteiga</li>
+    <li>3 ovos</li>
+    <li>1 e 1/2 xícaras (chá) de açúcar</li>
+    <li>3 xícaras (chá) de farinha de trigo</li>
+    <li>1 colher (sopa) de fermento em pó químico</li>
+    <li>Manteiga e farinha de trigo para untar</li>
+    <li>10 morangos cortados ao meio para decorar</li>
+ </ul>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/XzsiPN1sOiY?si=uGovhGVHwC4UxMBO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+ <h2> bolo fofinho chocolate</h2>
+ <ul type="circle"> 
+<li> 5 ovos  GRANDES ( uso do tipo jumbo)</li>
+    <li>360g de açúcar ou 2 xícaras de chá (padrão de 240ml)</li>
+    <li>360g de farinha de trigo ou 3 xícaras de chá (padrão de 240ml)</li>
+    <li>250g de água quente ou 1 xícara de chá + 1 dedo (padrão de 240ml)</li>
+    <li>70g de óleo de soja ou 60ml </li>
+    <li>65g de chocolate em pó 50% (uso melken) ou 3 colheres de sopa </li>
+    <li>7g de cacau black callebaut - OPCIONAL</li>
+    <li>15g de fermento químico em pó ou 1 colher de sopa rasa</li>
+    <br>
+ </ul>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/P6xMn3e6wo8?si=sxpmOpXiXzOinSxj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+ <h2> bolo de fuba</h2>
+ <ul>
+    <li> 4 ovos 195 gramas</li>
+        <li>1 e 1/2 xícara (chá) de açúcar 276 gramas</li>
+        <li>3/4 xícara (chá) de óleo 150 ml</li>
+        <li>1 xícara (chá) de farinha de trigo 136 gramas</li>
+        <li>1 xícara (chá) de fubá mimoso ou fubá fino 136 gramas</li>
+        <li>1 colher (sopa) de fermento em pó 14 gramas</li>
+        <li>1 xícara (chá) de leite quente 210 ml</li>
+ </ul>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/ukXdVZ4DmRw?si=DkCHVX5AkYP8QHht" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ 
+</body>
+</html>

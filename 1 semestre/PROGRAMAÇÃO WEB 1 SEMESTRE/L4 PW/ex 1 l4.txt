@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L4</title>
+    <style>
+        body{
+            background-color: #0D1117;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: aliceblue;
+        }
+td{
+    border: 1px solid white;
+    padding: 8px;
+}
+table{
+    width: 500px;
+   
+}
+
+
+    </style>
+</head>
+<!-- table = tabela
+    tr = table row  = linha de tabela
+    TD =table data = dado da tabela  
+        table header = cabeçalho
+    -->
+<body>
+<h1>Importância da Atividade Física e Alimentação Saudável</h1> <hr>
+<p>A prática de <strong>atividades físicas</strong> é essencial para manter a saúde e o bem-estar. Exercícios regulares trazem diversos benefícios, como a prevenção de doenças, a melhora na qualidade de vida e o controle do peso corporal. É importante escolher uma atividade que você goste, como <strong>caminhada</strong>,<strong> corrida</strong>, <strong>natação</strong> ou <strong>dança</strong>, para que se torne um hábito prazeroso.
+    <br> <br>
+
+    Além dos benefícios físicos, a atividade física também contribui para a saúde mental. Estudos mostram que a prática regular de exercícios pode reduzir os níveis de estresse, ansiedade e depressão. A atividade física estimula a liberação de endorfinas, neurotransmissores que promovem uma sensação de bem-estar e felicidade.</p>
+
+    <h2> Alimentação Saudável </h2><hr>
+    
+    <p>A alimentação saudável é fundamental para o funcionamento adequado do corpo. Uma <strong>dieta</strong> equilibrada, rica em <strong>frutas, vegetais e grãos integrais</strong>, fornece os nutrientes necessários para o organismo. É essencial incluir uma variedade de alimentos para garantir a ingestão de vitaminas e minerais essenciais.
+        <br><br>
+
+        Outro ponto importante é a hidratação. O consumo adequado de água é crucial para o funcionamento das células e para a regulação da temperatura corporal. A desidratação pode levar a problemas de saúde, como fadiga, dor de cabeça e diminuição do desempenho físico.</p>
+
+        <h3> Benefícios das Atividades Físicas  </h3>
+        <p> A tabela abaixo resume algumas atividades físicas comuns e seus benefícios:</p>
+
+
+      <table>
+
+        <tr>
+            <td> atividade</td>
+            <td> benefícios</td>
+        </tr>
+
+        <tr>
+            <td> caminhada</td>
+            <td> melhora a circulação</td>
+        </tr>
+
+        <tr>
+            <td>natação</td>
+            <td> Fortalece os músculos e melhora a resistência </td>
+            
+        </tr>
+
+        <tr>
+            <td> corrida</td>
+            <td>Acelera o metabolismo e melhora a saúde cardiovascular</td>
+        </tr>
+
+        <tr>
+            <td> dança</td>
+            <td> Melhora a coordenação e promove o bem-estar mental</td>
+        </tr>
+      </table>
+
+      <h4>
+        Dicas para uma Vida Saudável </h4>
+
+        <ol>
+            <li>Pratique atividades físicas regularmente, pelo menos 150 minutos por semana.</li>
+            <li>Escolha atividades que você goste e que possam ser incorporadas à sua rotina. </li>
+            <li>Mantenha uma alimentação equilibrada, evitando o consumo excessivo de açúcar e gordura. </li>
+            <li> Beba bastante água ao longo do dia para manter-se hidratado.</li>
+            <li> Durma bem. O sono é fundamental para a recuperação e para o desempenho físico.</li>
+            
+        </ol>
+<hr>
+
+<form action="resposta.php" method="post" autocomplete="off" >
+<p> <label for="Inome">Nome:</label> 
+    <input type="text" name="Nome" id="Inome" required>
+</p>
+
+<p>
+    enviar: <input type="submit" value="Enviar">
+    limpar <input type="reset" value="Limpar">
+</p>
+<fieldset>
+    <legend> Esportes favoritos</legend>
+    <input type="radio" name="esporte" id="icorrida">
+    <label for="icorrida"> corrida </label>
+    <input type="radio" name="esporte" id="inatação">
+    <label for="inatação"> natação</label>
+    <input type="radio" name="esporte" id="idança">
+    <label for="idança"> dança</label>
+    <input type="radio" name="esporte" id="ibasquete">
+    <label for="ibasquete"> basquete</label>
+    <input type="radio" name="esporte" id="ifutebol">
+    <label for="ifutebol"> futebol</label>
+
+    <input type="text" name="comentário" id="icomentário" placeholder="faça um comentário sobre esporte" required minlength="250" size="200">
+
+    
+</fieldset>
+
+
+</form>
+
+    
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de apresentação</title>
+    <style> 
+        body {
+            background-color: rgb(0, 0, 0);
+        }
+        mark{
+            color: rgba(235, 0, 0, 0.938);
+        }
+        p{
+            color: bisque;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 19px;
+        }
+        ul{
+            color: bisque;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 19px;
+        }
+    </style>
+</head>
+<h1 style="text-align: center; color: aliceblue; font-size: 30px; font-family: Georgia, 'Times New Roman', Times, serif;"> Wilson teofilo</h1> <hr>
+<p> Meu nome como se pode ver já está na parte do topo, tenho<ins> 23 anos de idade</ins>; gosto de boxe e meu tipo de mulher é do rosto bonito e de cabelo curto </p>
+<img src="https://i.pinimg.com/564x/17/aa/48/17aa484b520a96167baf5f3f4627cca3.jpg" alt=" minha cara">
+
+<ul type = "square">
+<li> correr</li>
+<li> <mark>sparring de boxe</mark></li>
+<li> jogar basquete</li>
+</ul>
+
+<body>
+    
+</body>
+</html>
