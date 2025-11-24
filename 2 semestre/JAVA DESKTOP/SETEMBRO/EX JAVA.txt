@@ -1,0 +1,166 @@
+//ex 1
+
+
+package ex1;
+import java.util.Scanner;
+public class EX1 {
+    public static void main(String[] args) {
+ Scanner scanner = new Scanner(System.in);
+ 
+ 
+ 
+ 
+ double num = 0;
+ for ( int cont =1 ; cont <100; num++){
+     cont++;
+    if (num %4 ==0){
+        System.out.println(num);
+        
+    } 
+ }
+ 
+ 
+    }
+    
+}
+
+// ex 2
+package ex2;
+import java.util.Scanner;
+public class EX2 {
+    public static void main(String[] args) {
+Scanner scan = new Scanner(System.in);
+        
+int pares =0;
+
+        System.out.println("digite 4 numeros e irei  dizer qual deles são Pares e somarei apenas os numeros PARES");
+        System.out.println("Digite o 1 Número:");
+    int num1 = scan.nextInt();
+    
+          System.out.println("Digite o 2 Número:");
+    int num2 = scan.nextInt();
+    
+          System.out.println("Digite o 3 Número:");
+    int num3 = scan.nextInt();
+    
+          System.out.println("Digite o 4 Número:");
+    int num4 = scan.nextInt();
+    //condições (marcando pra eu não me perder no codigokkkj)
+    
+    if (num1 %2==0){
+        System.out.println("Número  par :" +num1);
+        pares += num1;
+    }
+        if (num2 %2==0){
+        System.out.println("Número par :" +num2);
+        pares += num2;
+    }
+            if (num3 %2==0){
+        System.out.println("Número  par :" +num3);
+        pares += num3;
+    }
+                if (num4 %2==0){
+        System.out.println("Número  par :" +num4);
+        pares += num4;
+    }
+                
+                if (num1%2!=0 && num2%2!=0 && num3%2!=0 && num4%2!=0){
+                    System.out.println("Todos numeros são impares ");   
+                }
+                
+                System.out.println("Soma de todos numeros Pares: " +pares);
+
+    }
+    
+}
+//ex3
+
+
+package ex3;
+
+import java.util.Scanner;
+
+public class EX3 {
+    public static void main(String[] args) {
+Scanner scan = new Scanner (System.in);
+
+
+
+
+
+        System.out.println("Liste todos os anos bissextos que ocorreram entre 2000 e 2025."
+                + "\n Lembre-se que um ano é bissexto se for divisível por 4, mas não por 100.");
+
+        for (int cont =2000; cont <=2025; cont++){
+            
+            if (cont %4 ==0 ){
+                System.out.println("Anos bissextos: " +cont ) ;
+            }
+            
+        }
+
+    }
+    
+}
+//ex 4 (ESSE FALTA ARRUMAR AINDA )
+
+package ex4;
+import java.util.Scanner;
+public class Ex4 {
+    public static void main(String[] args) {
+       Scanner Scan = new Scanner (System.in);
+       
+        System.out.println("Ler 10 numeros e ver quais estão dentro do numero estão entre 10 - 50 e quantos deles estão fora");
+       int valor, dentro = 0, fora = 0;
+        
+        for (int c = 1; c<=10; c++){
+            System.out.println("Digite o valor do :" +c + "numero");
+            dentro.scan 
+                    if (dentro >10 && <50){
+            
+        }else{
+                
+                }
+            
+            
+        }
+       
+    }
+    
+}
+
+
+
+
+
+
+//ex 6
+
+package ex6;
+
+import java.util.Scanner;
+
+public class Ex6 {
+
+    public static void main(String[] args) {
+Scanner scan = new Scanner (System.in);
+
+
+
+
+for (int multi = 7; multi<200; multi+=7 ){
+
+ 
+        System.out.println(multi);
+    }
+}
+    
+    
+    
+    
+    
+    }
+    
+
+
+
