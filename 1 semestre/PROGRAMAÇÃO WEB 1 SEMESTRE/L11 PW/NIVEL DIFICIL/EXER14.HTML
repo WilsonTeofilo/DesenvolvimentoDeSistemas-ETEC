@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<SCRIPT>
+
+var primos = "";
+for (var i = 2; i <= 100; i++) {
+  var ehPrimo = true;
+  for (var j = 2; j <= Math.sqrt(i); j++) {
+    if (i % j === 0) {
+      ehPrimo = false;
+      break;
+    }
+  }
+  if (ehPrimo) primos += i + " ";
+}
+document.write("Números primos de 1 a 100:<br>" + primos + "<br><br>");
+</SCRIPT>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2> Contagem Regressiva</h2>
+<button onclick="contagemRegressiva()">Começar contagem</button>
+<pre id="resultadoContagem"></pre>
+</body>
+
+<script>
+  function contagemRegressiva() {
+    let resultado = "";
+    let i = 10;
+    while (i >= 1) {
+      resultado += `${i}\n`;
+      i--;
+    }
+    document.getElementById("resultadoContagem").textContent = resultado;
+  }
+</script>
+
+
+
+
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> tal do adivinhas</h1>
+</body>
+
+<SCRIPT>
+    var secreto = Math.floor(Math.random() * 10) + 1;
+var tentativa;
+do {
+  tentativa = parseInt(prompt("Adivinhe o número de 1 a 10:"));
+} while (tentativa !== secreto);
+document.write("Parabéns! Você acertou o número " + secreto + "!<br><br>");
+</SCRIPT>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    alert("BEM VINDO A CALCULADORA DO WILSO");
+    alert(">TUTORIAL<\n~~selecione no painel o tipo de calculo que deseja realizar~~\n1 - Soma\n2 - Subtração\n3 - Multiplicação\n4 - Divisão");
+    alert("Entendeu? Caso não, leia novamente kkkj");
+
+    var continuar = prompt("Para continuar digite 1:");
+    continuar = Number(continuar);
+
+    while (continuar === 1) {
+        var calc1 = Number(prompt("Digite o primeiro número a ser calculado:"));
+
+        var operacao = Number(prompt("Digite o número da operação:\n1 - Soma\n2 - Subtração\n3 - Multiplicação\n4 - Divisão"));
+
+        var calc2 = Number(prompt("Digite o segundo número a ser calculado:"));
+
+        var resultado;
+        var simbolo;
+
+        if (operacao === 1) {
+            resultado = calc1 + calc2;
+            simbolo = "+";
+        } else if (operacao === 2) {
+            resultado = calc1 - calc2;
+            simbolo = "-";
+        } else if (operacao === 3) {
+            resultado = calc1 * calc2;
+            simbolo = "*";
+        } else if (operacao === 4) {
+            if (calc2 !== 0) {
+                resultado = calc1 / calc2;
+                simbolo = "/";
+            } else {
+                alert("Erro: divisão por zero!");
+                resultado = "Indefinido";
+                simbolo = "/";
+            }
+        } else {
+            alert("Operação inválida.");
+            resultado = "Erro";
+            simbolo = "?";
+        }
+
+        alert("Resultado de: " + calc1 + " " + simbolo + " " + calc2 + " = " + resultado);
+
+        continuar = Number(prompt("Para finalizar digite 0\nPara fazer outro cálculo, digite 1"));
+    }
+
+    alert("Calculadora encerrada. Valeu!");
+</script>
+</html>

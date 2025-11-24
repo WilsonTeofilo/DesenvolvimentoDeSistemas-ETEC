@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>15 - Mostrar Letras de uma Palavra</h2>
+<input type="text" id="palavra" placeholder="Digite uma palavra">
+<button onclick="mostrarLetras()">Mostrar Letras</button>
+<pre id="resultadoLetras"></pre>
+    
+</body>
+
+<SCRIPT>
+    function mostrarLetras() {
+    const palavra = document.getElementById("palavra").value;
+    let resultado = "";
+    for (let i = 0; i < palavra.length; i++) {
+      resultado += `${palavra[i]}\n`;
+    }
+    document.getElementById("resultadoLetras").textContent = resultado;
+  }
+</SCRIPT>
+
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+
+    var produto = 150.99;
+    var produto2 = 123.45;
+    var desconto1 = produto/100*10;
+    var desconto2= produto2/100*10;
+    var descontado1 = produto-desconto1;
+    var descontado2 = produto2-desconto2;
+
+   var idade= Number(window.prompt('digite quantos anos você tem'))
+   var selecione = Number(window.prompt(`escolha qual perfume deseja comprar, digite 1 escolher - Malbec Black, valor : ${produto}  digite 2 escolher - Egeo fragancy, valor: ${produto2}`))
+
+  
+
+   if (selecione == 1 && idade>18){
+    window.document.write(`<p> você ganhou 10% de desconto  </p> `)
+    window.document.write(`parabéns pela compra, com 10% de desconto ficou por ${descontado1}, obrigado pela preferência!.` )
+   }
+   else if (selecione ==2 && idade>18){
+   window.document.write(`<p> você ganhou 10% de desconto  </p> `)
+   window.document.write(`parabéns pela compra, com 10% de desconto ficou por ${descontado2}, obrigado pela preferência!.` )
+
+   }
+
+   if (idade <=18 && selecione >=0 && selecione <=2){
+    window.document.write(`parabéns pela compra, obrigado pela preferência e volte sempre :) `)
+    
+   }
+
+
+</script>
+</html>

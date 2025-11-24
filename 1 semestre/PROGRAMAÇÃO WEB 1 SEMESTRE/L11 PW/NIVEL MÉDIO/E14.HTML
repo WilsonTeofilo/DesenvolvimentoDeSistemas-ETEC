@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<h2> Soma até digitar 0</h2>
+<button onclick="somarAteZero()">Somar</button>
+<pre id="resultadoSoma"></pre>
+
+<body>
+    <script>
+        function somarAteZero() {
+          let soma = 0;
+          let entrada;
+          do {
+            entrada = parseFloat(prompt("Digite um número (0 para parar):"));
+            if (!isNaN(entrada)) soma += entrada;
+          } while (entrada !== 0);
+          document.getElementById("resultadoSoma").textContent = `Soma total: ${soma}`;
+        }
+      </script>
+    
+</body>
+</html>

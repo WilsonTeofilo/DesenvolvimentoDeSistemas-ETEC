@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<SCRIPT>
+    var palavra = prompt("Digite uma palavra:");
+var vogais = "aeiouAEIOU";
+var total = 0;
+for (var i = 0; i < palavra.length; i++) {
+  if (vogais.indexOf(palavra[i]) !== -1) {
+    total++;
+  }
+}
+document.write("A palavra tem " + total + " vogal(is).<br><br>");
+</SCRIPT>
+</html>

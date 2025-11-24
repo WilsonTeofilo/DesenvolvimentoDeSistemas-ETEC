@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+
+<script>
+    var j1 = prompt("Jogador 1: pedra, papel ou tesoura?");
+var j2 = prompt("Jogador 2: pedra, papel ou tesoura?");
+var vencedor = "";
+if (j1 === j2) {
+  vencedor = "Empate!";
+} else if (
+  (j1 === "pedra" && j2 === "tesoura") ||
+  (j1 === "papel" && j2 === "pedra") ||
+  (j1 === "tesoura" && j2 === "papel")
+) {
+  vencedor = "Jogador 1 venceu!";
+} else {
+  vencedor = "Jogador 2 venceu!";
+}
+document.write("Resultado: " + vencedor + "<br><br>");
+</script>
+</html>
